@@ -1,5 +1,7 @@
 <PageSchema>
-  <pageforms_Form name="Company"/>
+  <pageforms_Form name="Company">
+    <PageNameFormula>&lt;Company[Company]&gt;</PageNameFormula>
+  </pageforms_Form>
   <Template name="Company" format="infobox">
     <Field name="Company">
       <pageforms_FormInput>
