@@ -1,5 +1,6 @@
 <PageSchema>
   <pageforms_Form name="DeviceType">
+    <PageNameFormula>&lt;DeviceType[DeviceType]&gt;</PageNameFormula>
     <standardInputs inputFreeText="1" freeTextLabel="Free text"/>
   </pageforms_Form>
   <Template name="DeviceType" format="infobox">
