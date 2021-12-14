@@ -8,6 +8,7 @@
       <pageforms_FormInput>
         <InputType>text with autocomplete</InputType>
         <Parameter name="mandatory"/>
+        <Parameter name="default">{{PAGENAME}}</Parameter>
       </pageforms_FormInput>
       <semanticmediawiki_Property name="ModelRevision">
         <Type>Text</Type>
