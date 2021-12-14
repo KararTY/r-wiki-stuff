@@ -27,7 +27,6 @@
       <Label>Technical Issues</Label>
       <pageforms_FormInput>
         <InputType>text with autocomplete</InputType>
-        <Parameter name="mandatory"/>
       </pageforms_FormInput>
       <semanticmediawiki_Property name="TechnicalIssue">
         <Type>Text</Type>
