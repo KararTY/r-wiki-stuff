@@ -1,0 +1,35 @@
+<PageSchema>
+  <pageforms_Form name="TechnicalIssue">
+    <standardInputs inputFreeText="1" freeTextLabel="Free text"/>
+  </pageforms_Form>
+  <Template name="TechnicalIssue" format="infobox">
+    <Field name="TechnicalIssue">
+      <Label>Technical Issue</Label>
+      <pageforms_FormInput>
+        <InputType>text with autocomplete</InputType>
+        <Parameter name="mandatory"/>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="TechnicalIssue">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="SymptomVerifications" list="list">
+      <Label>Symptom Verifications</Label>
+      <pageforms_FormInput>
+        <InputType>text with autocomplete</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="SymptomVerification">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="RepairProcedures" list="list">
+      <Label>Repair Procedures</Label>
+      <pageforms_FormInput>
+        <InputType>text with autocomplete</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="RepairProcedure">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+  </Template>
+</PageSchema>
