@@ -1,5 +1,6 @@
 <PageSchema>
   <pageforms_Form name="ProblemHeuristic">
+    <PageNameFormula>ProblemHeuristic:&lt;ProblemHeuristic[ModelRevision]&gt;/&lt;ProblemHeuristic[ProblemHeuristic]&gt;</PageNameFormula>
     <standardInputs inputFreeText="1" freeTextLabel="Free text"/>
   </pageforms_Form>
   <Template name="ProblemHeuristic" format="infobox">
