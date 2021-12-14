@@ -1,0 +1,37 @@
+<PageSchema>
+  <pageforms_Form name="ProblemHeuristic">
+    <standardInputs inputFreeText="1" freeTextLabel="Free text"/>
+  </pageforms_Form>
+  <Template name="ProblemHeuristic" format="infobox">
+    <Field name="ProblemHeuristic">
+      <Label>Problem Heuristic</Label>
+      <pageforms_FormInput>
+        <InputType>text with autocomplete</InputType>
+        <Parameter name="mandatory"/>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="ProblemHeuristic">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="ModelRevision">
+      <Label>Model Revision</Label>
+      <pageforms_FormInput>
+        <InputType>text with autocomplete</InputType>
+        <Parameter name="mandatory"/>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="ModelRevision">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="TechnicalIssues" list="list">
+      <Label>Technical Issues</Label>
+      <pageforms_FormInput>
+        <InputType>text with autocomplete</InputType>
+        <Parameter name="mandatory"/>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="TechnicalIssue">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+  </Template>
+</PageSchema>
