@@ -1,0 +1,24 @@
+<PageSchema>
+  <pageforms_Form name="Company"/>
+  <Template name="Company" format="infobox">
+    <Field name="Company">
+      <pageforms_FormInput>
+        <InputType>text with autocomplete</InputType>
+        <Parameter name="mandatory"/>
+        <Parameter name="default">{{PAGENAME}}</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="Company">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Inception">
+      <pageforms_FormInput>
+        <InputType>start date</InputType>
+        <Parameter name="mandatory"/>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="Inception">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+  </Template>
+</PageSchema>
