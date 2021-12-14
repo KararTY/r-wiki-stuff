@@ -1,5 +1,6 @@
 <PageSchema>
   <pageforms_Form name="ModelRevision">
+    <PageNameFormula>&lt;ModelRevision[ModelRevision]&gt;</PageNameFormula>
     <standardInputs inputFreeText="1" freeTextLabel="Free text"/>
   </pageforms_Form>
   <Template name="ModelRevision" format="infobox">
