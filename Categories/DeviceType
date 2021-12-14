@@ -1,0 +1,17 @@
+<PageSchema>
+  <pageforms_Form name="DeviceType">
+    <standardInputs inputFreeText="1" freeTextLabel="Free text"/>
+  </pageforms_Form>
+  <Template name="DeviceType" format="infobox">
+    <Field name="DeviceType">
+      <Label>Name</Label>
+      <pageforms_FormInput>
+        <Parameter name="mandatory"/>
+        <Parameter name="default">{{PAGENAME}}</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="DeviceType">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+  </Template>
+</PageSchema>
