@@ -1,6 +1,6 @@
 <PageSchema>
   <pageforms_Form name="SymptomVerification">
-    <PageNameFormula>SymptomVerification:&lt;SymptomVerification[SymptomVerification]&gt;</PageNameFormula>
+    <PageNameFormula>SymptomVerification:&lt;SymptomVerification[ModelRevision]&gt;/&lt;SymptomVerification[SymptomVerification]&gt;</PageNameFormula>
     <standardInputs inputFreeText="1" freeTextLabel="Free text"/>
   </pageforms_Form>
   <Template name="SymptomVerification" format="plain">
@@ -12,6 +12,16 @@
       </pageforms_FormInput>
       <semanticmediawiki_Property name="SymptomVerification">
         <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="ModelRevision">
+      <Label>Model Revision</Label>
+      <pageforms_FormInput>
+        <InputType>text with autocomplete</InputType>
+        <Parameter name="mandatory"/>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="ModelRevision">
+        <Type>Page</Type>
       </semanticmediawiki_Property>
     </Field>
   </Template>
