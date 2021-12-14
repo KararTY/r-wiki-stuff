@@ -1,5 +1,6 @@
 <PageSchema>
   <pageforms_Form name="RepairProcedure">
+    <PageNameFormula>RepairProcedure:&lt;RepairProcedure[RepairProcedure]&gt;</PageNameFormula>
     <standardInputs inputFreeText="1" freeTextLabel="Free text"/>
   </pageforms_Form>
   <Template name="RepairProcedure" format="plain">
