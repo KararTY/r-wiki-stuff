@@ -17,6 +17,7 @@
     <Field name="ModelRevision">
       <Label>Model Revision</Label>
       <pageforms_FormInput>
+        <InputType>text with autocomplete</InputType>
         <Parameter name="mandatory"/>
       </pageforms_FormInput>
       <semanticmediawiki_Property name="ModelRevision">
