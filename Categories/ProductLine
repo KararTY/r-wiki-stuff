@@ -1,5 +1,6 @@
 <PageSchema>
   <pageforms_Form name="ProductLine">
+    <PageNameFormula>&lt;ProductLine[ProductLine]&gt;</PageNameFormula>
     <standardInputs inputFreeText="1" freeTextLabel="Free text"/>
   </pageforms_Form>
   <Template name="ProductLine" format="infobox">
