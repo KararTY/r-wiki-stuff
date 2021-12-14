@@ -1,0 +1,5 @@
+{{#ask:
+  [[Category:ProblemHeuristic]]
+  [[ModelRevision::{{PAGENAME}}]]
+  |format=ul
+}}
