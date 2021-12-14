@@ -1,0 +1,5 @@
+{{#ask:
+  [[Category:ProductLine]]
+  [[Company::{{PAGENAME}}]]
+  |format=ul
+}}
