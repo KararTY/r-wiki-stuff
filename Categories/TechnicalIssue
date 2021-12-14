@@ -14,6 +14,15 @@
         <Type>Text</Type>
       </semanticmediawiki_Property>
     </Field>
+    <Field name="ModelRevision">
+      <Label>Model Revision</Label>
+      <pageforms_FormInput>
+        <Parameter name="mandatory"/>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="ModelRevision">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
     <Field name="SymptomVerifications" list="list">
       <Label>Symptom Verifications</Label>
       <pageforms_FormInput>
