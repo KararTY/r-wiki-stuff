@@ -1,0 +1,45 @@
+<PageSchema>
+  <pageforms_Form name="ModelRevision">
+    <standardInputs inputFreeText="1" freeTextLabel="Free text"/>
+  </pageforms_Form>
+  <Template name="ModelRevision" format="infobox">
+    <Field name="ModelRevision">
+      <Label>Model Revision</Label>
+      <pageforms_FormInput>
+        <InputType>text with autocomplete</InputType>
+        <Parameter name="mandatory"/>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="ModelRevision">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="ProductLine">
+      <Label>Product Line</Label>
+      <pageforms_FormInput>
+        <InputType>text with autocomplete</InputType>
+        <Parameter name="mandatory"/>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="ProductLine">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="DeviceType">
+      <Label>Device Type</Label>
+      <pageforms_FormInput>
+        <InputType>text with autocomplete</InputType>
+        <Parameter name="mandatory"/>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="DeviceType">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Inception">
+      <pageforms_FormInput>
+        <InputType>start date</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="Inception">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+  </Template>
+</PageSchema>
