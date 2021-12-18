@@ -1,0 +1,6 @@
+{{#ask:
+  [[Category:RepairProcedure]]
+  [[ModelRevision:: {{#show: {{FULLPAGENAME}} |?ModelRevision|link=none}}]]
+  [[RepairProcedure:: {{#show: {{FULLPAGENAME}} |?RepairProcedure}}]]
+  |format=ul
+}}
