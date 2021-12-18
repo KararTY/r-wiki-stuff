@@ -1,0 +1,6 @@
+{{#ask:
+  [[Category:SymptomVerification]]
+  [[ModelRevision:: {{#show: {{FULLPAGENAME}} |?ModelRevision|link=none}}]]
+  [[SymptomVerification:: {{#show: {{FULLPAGENAME}} |?SymptomVerification}}]]
+  |format=ul
+}}
