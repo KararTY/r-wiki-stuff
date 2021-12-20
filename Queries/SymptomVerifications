@@ -1,6 +1,8 @@
 {{#ask:
   [[Category:SymptomVerification]]
   [[ModelRevision:: {{#show: {{FULLPAGENAME}} |?ModelRevision|link=none}}]]
-  [[SymptomVerification:: {{#show: {{FULLPAGENAME}} |?SymptomVerification}}]]
+  [[SymptomVerification:: {{#arraymap:{{#show: {{FULLPAGENAME}} |?SymptomVerification}}|,|x|x|{{!}}{{!}}}}]]
   |format=ul
+  |mainlabel=-
+  |?SymptomVerification
 }}
